@@ -1,0 +1,37 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    @section Scripts {
+        <script>
+            alert("Welcome to the Products Page!")
+        </script>
+    }
+    @section Styles {
+        <link rel="stylesheet" href="~/css/products.css" />
+    }
+
+}
+@{
+    String[] arr = {"Water", "Orange Juice", "Coffee", "Sandwich", "Chocolate"};
+
+    foreach(string product in arr)
+    {
+        <p>@product</p>
+    }
+
+    @if (arr.Length != 0)
+    {
+        <p>Total products available: @arr.Length</p>
+    }
+    else {<p>No products available.</p> }
+
+    @if (arr.Length >= 4)
+    {
+        <p>We have enough Products.</p>
+    }
+    else
+    {
+        <p>We need more Products.</p>
+    }
+}
