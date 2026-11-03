@@ -1,0 +1,42 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_MainLayout";
+    ViewData["Title"] = "Create Request";
+}
+
+<h2>Create Supply Request</h2>
+
+@if (ViewBag.Message != null)
+{
+    <p style="color:red">@ViewBag.Message</p>
+}
+
+<form action="/Supply/SubmitRequest" method="post">
+
+    <label>Employee Name:</label>
+    <input type="text" name="EmployeeName" />
+    <br /><br />
+
+    <label>Product Name:</label>
+    <select name="ProductName">
+        <option value="Water">Water</option>
+        <option value="Orange Juice">Orange Juice</option>
+        <option value="Coffee">Coffee</option>
+        <option value="Sandwich">Sandwich</option>
+        <option value="Chocolate">Chocolate</option>
+    </select>
+    <br /><br />
+
+    <label>Quantity:</label>
+    <input type="number" name="Quantity" min="1" required />
+    <br /><br />
+
+    <label>Required Date:</label>
+    <input type="date" name="RequiredDate" required />
+    <br /><br />
+
+    <button type="submit">Submit Request</button>
+
+</form>
