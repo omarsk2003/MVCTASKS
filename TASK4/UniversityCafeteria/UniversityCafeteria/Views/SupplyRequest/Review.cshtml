@@ -1,0 +1,42 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h2>Review Supply Request</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Product Name</th>
+            <th>Quantity</th>
+            <th>Unit Price</th>
+            <th>Product Total</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @for (int i = 0; i < ViewBag.Names.Count; i++)
+        {
+            <tr>
+                <td>@ViewBag.Names[i]</td>
+                <td>@ViewBag.Quantities[i]</td>
+                <td>@ViewBag.UnitPrices[i] JD</td>
+                <td>@ViewBag.ProductTotals[i] JD</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h3>Request Summary</h3>
+
+<p>Priority: @ViewBag.Priority</p>
+
+<p>Subtotal: @ViewBag.Subtotal JD</p>
+
+<p>Preparation Fee: @ViewBag.PreparationFee JD</p>
+
+<p>Discount: @ViewBag.Discount JD</p>
+
+<h4>Final Total: @ViewBag.FinalTotal JD</h4>

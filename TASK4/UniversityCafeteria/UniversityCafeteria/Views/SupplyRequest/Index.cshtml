@@ -1,0 +1,73 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+    <h2>Home</h2>
+
+@if (ViewBag.Message != null)
+{
+    <p style="color:red">@ViewBag.Message</p>
+}
+
+@if (TempData["Message"] != null)
+{
+    <p style="color:green">@TempData["Message"]</p>
+}
+    <form asp-controller="SupplyRequest"
+      asp-action="AddItem"
+          method="post">
+
+        <div>
+        <label>Product Name:</label>
+            <input type="text" name="Name" required />
+        </div>
+        <br />
+
+        <div>
+        <label>Category:</label>
+        <input type="text" name="Category" required />
+        </div>
+        <br />
+
+    <div>
+        <label>Quantity:</label>
+        <input type="number" name="Quantity" required />
+    </div>
+    <br />
+
+        <div>
+        <label>Unit Price:</label>
+            <input type="number" name="UnitPrice" required />
+        </div>
+        <br />
+
+    <br />
+        <div>
+        <label>Priority:</label>
+
+            <select name="operation">
+            <option value="Normal">Normal</option>
+            <option value="Urgent">Urgent</option>
+            <option value="Emergency">Emergency</option>
+            </select>
+        </div>
+
+        <br />
+
+        <button type="submit">Submit Request</button>
+
+    </form>
+
+<form asp-controller="SupplyRequest"
+      asp-action="ClearDraft"
+      method="post">
+
+    <button type="submit">Clear Draft</button>
+</form>
+
+@foreach (string product in ViewBag.Products)
+{
+    <p>@product</p>
+}
+

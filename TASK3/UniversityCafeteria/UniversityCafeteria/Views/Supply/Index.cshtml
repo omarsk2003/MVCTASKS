@@ -5,8 +5,7 @@
     Layout = "_MainLayout";
 }
 @{
-    <h1>@ViewBag.PageTitle</h1>
-    <p>Number of Products: @ViewBag.NumberOfProducts</p>
+   <p>Number of Products: @ViewBag.NumberOfProducts</p>
     <ul>
         @foreach (string product in (string[])ViewBag.Categories)
         {
