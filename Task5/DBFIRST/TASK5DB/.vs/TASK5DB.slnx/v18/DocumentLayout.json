@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\MVCTASKS\\Task5\\DBFIRST\\TASK5DB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8AD59EB-FCA2-45C2-B5B3-254EC72BDD41}|TASK5DB\\TASK5DB.csproj|c:\\users\\user\\desktop\\mvctasks\\task5\\dbfirst\\task5db\\task5db\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8AD59EB-FCA2-45C2-B5B3-254EC72BDD41}|TASK5DB\\TASK5DB.csproj|solutionrelative:task5db\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8AD59EB-FCA2-45C2-B5B3-254EC72BDD41}|TASK5DB\\TASK5DB.csproj|c:\\users\\user\\desktop\\mvctasks\\task5\\dbfirst\\task5db\\task5db\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8AD59EB-FCA2-45C2-B5B3-254EC72BDD41}|TASK5DB\\TASK5DB.csproj|solutionrelative:task5db\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8AD59EB-FCA2-45C2-B5B3-254EC72BDD41}|TASK5DB\\TASK5DB.csproj|c:\\users\\user\\desktop\\mvctasks\\task5\\dbfirst\\task5db\\task5db\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D8AD59EB-FCA2-45C2-B5B3-254EC72BDD41}|TASK5DB\\TASK5DB.csproj|solutionrelative:task5db\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8AD59EB-FCA2-45C2-B5B3-254EC72BDD41}|TASK5DB\\TASK5DB.csproj|c:\\users\\user\\desktop\\mvctasks\\task5\\dbfirst\\task5db\\task5db\\data\\cafeteriadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8AD59EB-FCA2-45C2-B5B3-254EC72BDD41}|TASK5DB\\TASK5DB.csproj|solutionrelative:task5db\\data\\cafeteriadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8AD59EB-FCA2-45C2-B5B3-254EC72BDD41}|TASK5DB\\TASK5DB.csproj|c:\\users\\user\\desktop\\mvctasks\\task5\\dbfirst\\task5db\\task5db\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8AD59EB-FCA2-45C2-B5B3-254EC72BDD41}|TASK5DB\\TASK5DB.csproj|solutionrelative:task5db\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVCTASKS\\Task5\\DBFIRST\\TASK5DB\\TASK5DB\\appsettings.json",
+              "RelativeDocumentMoniker": "TASK5DB\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVCTASKS\\Task5\\DBFIRST\\TASK5DB\\TASK5DB\\appsettings.json",
+              "RelativeToolTip": "TASK5DB\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-07T14:01:21.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVCTASKS\\Task5\\DBFIRST\\TASK5DB\\TASK5DB\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TASK5DB\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVCTASKS\\Task5\\DBFIRST\\TASK5DB\\TASK5DB\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TASK5DB\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-07T13:59:41.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVCTASKS\\Task5\\DBFIRST\\TASK5DB\\TASK5DB\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TASK5DB\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVCTASKS\\Task5\\DBFIRST\\TASK5DB\\TASK5DB\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TASK5DB\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T13:59:03.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVCTASKS\\Task5\\DBFIRST\\TASK5DB\\TASK5DB\\Program.cs",
+              "RelativeDocumentMoniker": "TASK5DB\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVCTASKS\\Task5\\DBFIRST\\TASK5DB\\TASK5DB\\Program.cs",
+              "RelativeToolTip": "TASK5DB\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T13:58:43.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CafeteriaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVCTASKS\\Task5\\DBFIRST\\TASK5DB\\TASK5DB\\Data\\CafeteriaDbContext.cs",
+              "RelativeDocumentMoniker": "TASK5DB\\Data\\CafeteriaDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVCTASKS\\Task5\\DBFIRST\\TASK5DB\\TASK5DB\\Data\\CafeteriaDbContext.cs",
+              "RelativeToolTip": "TASK5DB\\Data\\CafeteriaDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T13:58:22.332Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
