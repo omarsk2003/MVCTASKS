@@ -1,0 +1,159 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Graduation Supplies";
+}
+
+
+<h2 class="mb-2">Graduation Ceremony Supply Management</h2>
+
+<p class="text-muted mb-4">
+    Select one offer from each category.
+</p>
+
+<form asp-controller="Supply"
+      asp-action="SelectOffers"
+      method="post">
+
+    <h4 class="mb-3">Category 1: Graduation Certificates</h4>
+
+    <div class="border rounded p-3 mb-3">
+        <label for="SupplierA">
+            <input type="radio"
+                   id="SupplierA"
+                   name="Category1"
+                   value="SupplierA"
+                   required />
+
+            <strong>Supplier A</strong>
+        </label>
+
+        <div class="ms-4">
+            <p class="mb-1">Offer: Premium Certificate Package</p>
+            <p class="mb-1">Quantity: 35 certificates</p>
+            <p class="mb-0">Unit Price: 2 JD per certificate</p>
+        </div>
+    </div>
+
+    <div class="border rounded p-3 mb-3">
+        <label for="SupplierB">
+            <input type="radio"
+                   id="SupplierB"
+                   name="Category1"
+                   value="SupplierB" />
+
+            <strong>Supplier B</strong>
+        </label>
+
+        <div class="ms-4">
+            <p class="mb-1">Offer: Standard Certificate Package</p>
+            <p class="mb-1">Quantity: 35 certificates</p>
+            <p class="mb-0">Unit Price: 1.5 JD per certificate</p>
+        </div>
+    </div>
+
+    <div class="border rounded p-3 mb-3">
+        <label for="SupplierC">
+            <input type="radio"
+                   id="SupplierC"
+                   name="Category1"
+                   value="SupplierC" />
+
+            <strong>Supplier C</strong>
+        </label>
+
+        <div class="ms-4">
+            <p class="mb-1">Offer: Luxury Certificate Package</p>
+            <p class="mb-1">Quantity: 35 certificates</p>
+            <p class="mb-0">Unit Price: 2.5 JD per certificate</p>
+        </div>
+    </div>
+
+    <h4 class="mt-4 mb-3">Category 2: Hospitality</h4>
+
+    <div class="border rounded p-3 mb-3">
+        <label for="SupplierD">
+            <input type="radio" id="SupplierD"
+                   name="Category2" value="SupplierD" required />
+            <strong>Supplier D</strong>
+        </label>
+        <div class="ms-4">
+            <p class="mb-1">Offer: Coffee &amp; Drinks Package</p>
+            <p class="mb-1">Quantity: 100</p>
+            <p class="mb-0">Unit Price: 2 JD</p>
+        </div>
+    </div>
+
+    <div class="border rounded p-3 mb-3">
+        <label for="SupplierE">
+            <input type="radio" id="SupplierE"
+                   name="Category2" value="SupplierE" />
+            <strong>Supplier E</strong>
+        </label>
+        <div class="ms-4">
+            <p class="mb-1">Offer: Sandwiches &amp; Snacks Package</p>
+            <p class="mb-1">Quantity: 100</p>
+            <p class="mb-0">Unit Price: 3 JD</p>
+        </div>
+    </div>
+
+    <div class="border rounded p-3 mb-3">
+        <label for="SupplierF">
+            <input type="radio" id="SupplierF"
+                   name="Category2" value="SupplierF" />
+            <strong>Supplier F</strong>
+        </label>
+        <div class="ms-4">
+            <p class="mb-1">Offer: Full Hospitality Package</p>
+            <p class="mb-1">Quantity: 100</p>
+            <p class="mb-0">Unit Price: 4 JD</p>
+        </div>
+    </div>
+
+    <h4 class="mt-4 mb-3">Category 3: Graduation Gifts</h4>
+
+    <div class="border rounded p-3 mb-3">
+        <label for="SupplierG">
+            <input type="radio" id="SupplierG"
+                   name="Category3" value="SupplierG" required />
+            <strong>Supplier G</strong>
+        </label>
+        <div class="ms-4">
+            <p class="mb-1">Offer: Customized Mugs Package</p>
+            <p class="mb-1">Quantity: 35</p>
+            <p class="mb-0">Unit Price: 2 JD</p>
+        </div>
+    </div>
+
+    <div class="border rounded p-3 mb-3">
+        <label for="SupplierH">
+            <input type="radio" id="SupplierH"
+                   name="Category3" value="SupplierH" />
+            <strong>Supplier H</strong>
+        </label>
+        <div class="ms-4">
+            <p class="mb-1">Offer: Graduation Bags Package</p>
+            <p class="mb-1">Quantity: 35</p>
+            <p class="mb-0">Unit Price: 3 JD</p>
+        </div>
+    </div>
+
+    <div class="border rounded p-3 mb-3">
+        <label for="SupplierI">
+            <input type="radio" id="SupplierI"
+                   name="Category3" value="SupplierI" />
+            <strong>Supplier I</strong>
+        </label>
+        <div class="ms-4">
+            <p class="mb-1">Offer: Premium Gift Boxes Package</p>
+            <p class="mb-1">Quantity: 35</p>
+            <p class="mb-0">Unit Price: 4 JD</p>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">
+        Save Selected Offers
+    </button>
+
+</form>
