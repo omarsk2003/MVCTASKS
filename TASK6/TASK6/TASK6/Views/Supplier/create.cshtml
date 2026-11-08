@@ -1,0 +1,28 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Supplier
+
+<h2>Create Supplier</h2>
+
+<form asp-controller="Supplier" asp-action="Create" method="post">
+
+    <label asp-for="Name">Name:</label>
+    <input asp-for="Name" class="form-control" />
+
+    <label asp-for="EmailAddress">Email Address:</label>
+    <input asp-for="EmailAddress" class="form-control" />
+
+    <label asp-for="phoneNumber">Phone Number:</label>
+    <input asp-for="phoneNumber" class="form-control" />
+
+    <button type="submit" class="btn btn-primary">Create</button>
+
+</form>

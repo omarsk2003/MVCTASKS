@@ -3151,11 +3151,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\MVCTASKS\\TASK402\\AcademyGraduationSupply\\AcademyGraduationSupply\\AcademyGraduationSupply.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\MVCTASKS\\Task5\\TASK402\\AcademyGraduationSupply\\AcademyGraduationSupply\\AcademyGraduationSupply.csproj",
       "projectName": "AcademyGraduationSupply",
-      "projectPath": "C:\\Users\\user\\Desktop\\MVCTASKS\\TASK402\\AcademyGraduationSupply\\AcademyGraduationSupply\\AcademyGraduationSupply.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\MVCTASKS\\Task5\\TASK402\\AcademyGraduationSupply\\AcademyGraduationSupply\\AcademyGraduationSupply.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\MVCTASKS\\TASK402\\AcademyGraduationSupply\\AcademyGraduationSupply\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\MVCTASKS\\Task5\\TASK402\\AcademyGraduationSupply\\AcademyGraduationSupply\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

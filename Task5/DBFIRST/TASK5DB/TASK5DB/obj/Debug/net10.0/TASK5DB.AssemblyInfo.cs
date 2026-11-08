@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TASK5DB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+801071e03a4b3f70180a664585d5e8f7fe7bd8e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ebc52cbd13b327d95ddbe23e6c6ac2359698eeb")]
 [assembly: System.Reflection.AssemblyProductAttribute("TASK5DB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TASK5DB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
