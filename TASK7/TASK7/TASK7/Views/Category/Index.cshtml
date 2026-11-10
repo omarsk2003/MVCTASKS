@@ -1,0 +1,40 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+﻿<a asp-action="Create">Create a Category</a>
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model)
+        {
+            <tr>
+                <td>@category.Id</td>
+                <td>@category.Name</td>
+                <td>@category.Description</td>
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@category.Id">Edit</a>
+                    <a asp-action="Details" asp-route-id="@category.Id">Details</a>
+
+
+                    <form method="post" asp-action="Delete" asp-route-id="@category.Id"
+                          onsubmit="return confirm('Delete this user?')">
+                        <button type="submit">Delete</button>
+                    </form>
+
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

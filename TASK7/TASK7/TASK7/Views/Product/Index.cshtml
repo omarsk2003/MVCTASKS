@@ -1,0 +1,46 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<a asp-action="Create">Create a Product</a>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Category</th>
+            <th>Supplier</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Name</td>
+                <td>@product.Description</td>
+                <td>@product.Price</td>
+                <td>@product.Quantity</td>
+                <td>@product.Category?.Name</td>
+                <td>@product.Supplier?.Name</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@product.Id">Edit</a>
+                    <a asp-action="Details" asp-route-id="@product.Id">Details</a>
+
+                    <form method="post" asp-action="Delete"
+                          asp-route-id="@product.Id"
+                          onsubmit="return confirm('Delete this product?')">
+                        <button type="submit">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

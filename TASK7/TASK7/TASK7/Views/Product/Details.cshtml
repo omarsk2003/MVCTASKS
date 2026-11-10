@@ -1,0 +1,15 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+﻿
+@model TASK7.Models.Product
+
+<p>@Model.Id</p>
+<p>@Model.Name</p>
+<p>@Model.Description</p>
+<p>@Model.Price</p>
+<p>@Model.Quantity</p>
+<p>@Model.Category?.Name</p>
+<p>@Model.Supplier?.Name</p>

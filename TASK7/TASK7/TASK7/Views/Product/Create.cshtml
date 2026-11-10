@@ -1,0 +1,29 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model TASK7.Models.Product
+
+<form asp-action="Create" method="post">
+    <input type="text" asp-for="Name" placeholder="Name" />
+    <input type="text" asp-for="Description" placeholder="Description" />
+    <input type="number" asp-for="Price" placeholder="Price" step="any" />
+    <input type="number" asp-for="Quantity" placeholder="Quantity" />
+    <select asp-for="CategoryId">
+        @foreach (var category in ViewBag.Categories)
+        {
+            <option value="@category.Id">@category.Name</option>
+        }
+    </select>
+
+    <select asp-for="SupplierId">
+        @foreach (var supplier in ViewBag.Suppliers)
+        {
+            <option value="@supplier.Id">@supplier.Name</option>
+        }
+    </select>
+
+    <button type="submit">Create</button>
+</form>

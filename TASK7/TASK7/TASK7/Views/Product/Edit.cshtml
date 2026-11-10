@@ -1,0 +1,20 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+﻿
+@model TASK7.Models.Product
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <input type="text" asp-for="Name" value="@Model.Name" />
+    <input type="text" asp-for="Description" value="@Model.Description" />
+    <input type="number" asp-for="Price" value="@Model.Price" step="any" />
+    <input type="number" asp-for="Quantity" value="@Model.Quantity" />
+    <input type="number" asp-for="CategoryId" value="@Model.CategoryId" />
+    <input type="number" asp-for="SupplierId" value="@Model.SupplierId" />
+
+    <button type="submit">Save</button>
+</form>
