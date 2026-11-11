@@ -15,9 +15,7 @@ namespace TASK7.Controllers
         }
         public IActionResult Index()
         {
-            var categories = _context.Categories
-            .Include(c => c.Products)
-            .ToList();
+            var categories = _context.Categories.ToList();
 
             return View(categories);
         }

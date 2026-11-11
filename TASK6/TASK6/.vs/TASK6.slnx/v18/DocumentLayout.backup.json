@@ -98,8 +98,7 @@
               "RelativeToolTip": "TASK6\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABcAAAAAAAAAAAAiwCcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-08T12:10:02.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-08T12:10:02.699Z"
             },
             {
               "$type": "Document",
@@ -109,7 +108,7 @@
               "RelativeDocumentMoniker": "TASK6\\Views\\Product\\Create.cshtml",
               "ToolTip": "C:\\Users\\user\\Desktop\\MVCTASKS\\TASK6\\TASK6\\TASK6\\Views\\Product\\Create.cshtml",
               "RelativeToolTip": "TASK6\\Views\\Product\\Create.cshtml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAUwB8AAABBAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-11-08T12:09:17.282Z",
               "EditorCaption": ""
@@ -120,12 +119,11 @@
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVCTASKS\\TASK6\\TASK6\\TASK6\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "TASK6\\Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVCTASKS\\TASK6\\TASK6\\TASK6\\Views\\Product\\Index.cshtml*",
-              "RelativeToolTip": "TASK6\\Views\\Product\\Index.cshtml*",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVCTASKS\\TASK6\\TASK6\\TASK6\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "TASK6\\Views\\Product\\Index.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-08T12:07:36.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-08T12:07:36.261Z"
             },
             {
               "$type": "Document",
@@ -137,8 +135,7 @@
               "RelativeToolTip": "TASK6\\Controllers\\ProductController.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAYwBkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-08T12:05:30.468Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-08T12:05:30.468Z"
             },
             {
               "$type": "Document",
@@ -150,8 +147,7 @@
               "RelativeToolTip": "TASK6\\Views\\Supplier\\create.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAYwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-08T12:03:27.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-08T12:03:27.609Z"
             },
             {
               "$type": "Document",
@@ -163,8 +159,7 @@
               "RelativeToolTip": "TASK6\\Views\\Supplier\\Index.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-08T12:03:12.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-08T12:03:12.463Z"
             },
             {
               "$type": "Document",
@@ -212,8 +207,7 @@
               "RelativeToolTip": "TASK6\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-08T11:51:40.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-08T11:51:40.908Z"
             },
             {
               "$type": "Document",
@@ -237,8 +231,7 @@
               "RelativeToolTip": "TASK6\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-11-08T11:50:18.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-08T11:50:18.091Z"
             },
             {
               "$type": "Document",
@@ -250,8 +243,7 @@
               "RelativeToolTip": "TASK6\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-08T11:49:20.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-08T11:49:20.936Z"
             },
             {
               "$type": "Document",
@@ -283,12 +275,11 @@
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\MVCTASKS\\TASK6\\TASK6\\TASK6\\Models\\Product.cs",
               "RelativeDocumentMoniker": "TASK6\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\MVCTASKS\\TASK6\\TASK6\\TASK6\\Models\\Product.cs*",
-              "RelativeToolTip": "TASK6\\Models\\Product.cs*",
+              "ToolTip": "C:\\Users\\user\\Desktop\\MVCTASKS\\TASK6\\TASK6\\TASK6\\Models\\Product.cs",
+              "RelativeToolTip": "TASK6\\Models\\Product.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-08T11:43:27.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-08T11:43:27.054Z"
             },
             {
               "$type": "Document",

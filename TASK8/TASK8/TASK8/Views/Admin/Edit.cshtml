@@ -1,0 +1,21 @@
+@model TASK8.Models.UserRoleDTO
+@using Microsoft.AspNetCore.Identity
+@{
+    ViewData["Title"] = "Change User Role";
+    var person = (IdentityUser)ViewBag.User;
+    var roles = (IList<string>)ViewBag.Roles;
+}
+<h2>Change Role</h2>
+<p><strong>User:</strong> @person.Email</p>
+<p><strong>Current:</strong> @string.Join(", ", roles)</p>
+<form asp-action="Edit" method="post" class="col-md-6">
+    <input asp-for="UserId" type="hidden" />
+    <label>Select Role</label>
+    <select asp-for="RoleName" class="form-select mb-3">
+        <option value="User">User</option>
+        <option value="Admin">Admin</option>
+        <option value="SuperAdmin">SuperAdmin</option>
+    </select>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</form>

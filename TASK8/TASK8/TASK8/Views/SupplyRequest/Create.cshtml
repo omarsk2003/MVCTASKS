@@ -1,0 +1,27 @@
+@model TASK8.Models.RequestCreateDTO
+@{ ViewData["Title"] = "New Supply Request"; }
+<h2>New Supply Request</h2>
+<p>Enter the required quantity for each product. Leave 0 for products you do not need. The total is calculated when you submit.</p>
+<form asp-action="Create" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <table class="table table-bordered">
+    <thead><tr><th>Product</th><th>Available Quantity</th><th>Requested Quantity</th></tr></thead>
+    <tbody>
+    @for (int i = 0; i < Model.Items.Count; i++)
+    {
+        var product = ((IEnumerable<TASK8.Models.Product>)ViewBag.Products)
+            .First(p => p.Id == Model.Items[i].ProductId);
+        <tr>
+            <td>
+                @product.Name
+                <input asp-for="Items[i].ProductId" type="hidden" />
+            </td>
+            <td>@product.Quantity</td>
+            <td><input asp-for="Items[i].Quantity" type="number" min="0" class="form-control" /></td>
+        </tr>
+    }
+    </tbody>
+</table>
+    <button type="submit" class="btn btn-primary">Submit Request</button>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</form>

@@ -13,8 +13,20 @@
     <input type="text" asp-for="Description" value="@Model.Description" />
     <input type="number" asp-for="Price" value="@Model.Price" step="any" />
     <input type="number" asp-for="Quantity" value="@Model.Quantity" />
-    <input type="number" asp-for="CategoryId" value="@Model.CategoryId" />
-    <input type="number" asp-for="SupplierId" value="@Model.SupplierId" />
+     
+    
+    <select asp-for="CategoryId">
+        @foreach (var category in ViewBag.Categories)
+        {
+            <option value="@category.Id">@category.Name</option>
+        }
+    </select>
 
+    <select asp-for="SupplierId">
+        @foreach (var supplier in ViewBag.Suppliers)
+        {
+            <option value="@supplier.Id">@supplier.Name</option>
+        }
+    </select>
     <button type="submit">Save</button>
 </form>

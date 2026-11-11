@@ -39,6 +39,8 @@ namespace TASK7.Controllers
         [HttpGet]
         public IActionResult Edit(int id)
         {
+            ViewBag.Categories = _context.Categories.ToList();
+            ViewBag.Suppliers = _context.Suppliers.ToList();
             return View(_context.Products.Find(id));
         }
 

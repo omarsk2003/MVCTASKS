@@ -1,0 +1,32 @@
+@model IEnumerable<TASK8.Models.SupplyRequest>
+@{ ViewData["Title"] = "Supply Requests"; }
+<h2>Supply Requests</h2>
+<p>Users see their own requests. Admin and SuperAdmin see all requests.</p>
+<a class="btn btn-primary mb-3" asp-action="Create">New Request</a>
+<table class="table table-striped table-bordered">
+<thead><tr><th>Id</th><th>Date</th><th>Requested By</th><th>Total</th><th>Status</th><th>Actions</th></tr></thead>
+<tbody>
+@foreach (var item in Model)
+{
+    <tr>
+        <td>@item.Id</td>
+        <td>@item.RequestDate.ToString("yyyy-MM-dd HH:mm")</td>
+        <td>@item.User?.Email</td>
+        <td>@item.TotalPrice.ToString("0.00")</td>
+        <td>@item.Status</td>
+        <td>
+            <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+            @if (item.Status == "Pending")
+            {
+                @if (item.UserId == User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value)
+                {
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="ms-2">Edit</a>
+                }
+                <form asp-action="Delete" asp-route-id="@item.Id" method="post" class="d-inline">
+                    <button class="btn btn-link text-danger" type="submit" onclick="return confirm('Delete this request?')">Delete</button>
+                </form>
+            }
+        </td>
+    </tr>
+}
+</tbody></table>

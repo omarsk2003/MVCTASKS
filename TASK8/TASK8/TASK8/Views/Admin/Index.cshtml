@@ -1,0 +1,21 @@
+@using Microsoft.AspNetCore.Identity
+@{ ViewData["Title"] = "Manage Users";
+   var users = (IEnumerable<IdentityUser>)ViewBag.Users;
+}
+<h2>Manage Users (SuperAdmin Only)</h2>
+<table class="table table-bordered table-striped">
+<thead><tr><th>Email</th><th>UserName</th><th>Actions</th></tr></thead>
+<tbody>
+@foreach (var user in users)
+{
+    <tr>
+        <td>@user.Email</td><td>@user.UserName</td>
+        <td>
+            <a asp-action="Edit" asp-route-id="@user.Id">Change Role</a>
+            <form asp-action="Delete" asp-route-id="@user.Id" method="post" class="d-inline">
+                <button type="submit" class="btn btn-link text-danger" onclick="return confirm('Delete user?')">Delete</button>
+            </form>
+        </td>
+    </tr>
+}
+</tbody></table>

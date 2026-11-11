@@ -1,0 +1,25 @@
+@model TASK8.Models.SupplyRequest
+@{ ViewData["Title"] = "Request Details"; }
+<h2>Supply Request #@Model.Id</h2>
+<p><strong>User:</strong> @Model.User?.Email</p>
+<p><strong>Date:</strong> @Model.RequestDate.ToString("yyyy-MM-dd HH:mm")</p>
+<p><strong>Status:</strong> @Model.Status</p>
+<table class="table table-bordered">
+<thead><tr><th>Product</th><th>Quantity</th><th>Unit Price (at request)</th><th>Subtotal</th></tr></thead>
+<tbody>
+@foreach (var item in Model.RequestItems)
+{
+    <tr><td>@item.Product?.Name</td><td>@item.Quantity</td><td>@item.Price.ToString("0.00")</td><td>@((item.Price * item.Quantity).ToString("0.00"))</td></tr>
+}
+</tbody></table>
+<h4>Total: @Model.TotalPrice.ToString("0.00")</h4>
+@if ((User.IsInRole("Admin") || User.IsInRole("SuperAdmin")) && Model.Status == "Pending")
+{
+    <form asp-action="Approve" asp-route-id="@Model.Id" method="post" class="d-inline">
+        <button class="btn btn-success" type="submit">Approve</button>
+    </form>
+    <form asp-action="Reject" asp-route-id="@Model.Id" method="post" class="d-inline">
+        <button class="btn btn-danger" type="submit">Reject</button>
+    </form>
+}
+<a class="btn btn-secondary ms-2" asp-action="Index">Back</a>
